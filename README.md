@@ -27,7 +27,7 @@
 - CI/CD and testing in general is as important as decent codebase
 - If one can plan their time well, flexible work hours make their work both more effective and more enjoyable
 - Python sometimes change for worse or breaks the code without any reason (e.g. they have switched from using `a` mode into `w` on pipes, ref: [LINK](https://www.mail-archive.com/python-bugs-list@python.org/msg280900.html))
-- I will not start any new personal project in Python (especially one using multi-threading, multiple processess etc.), unless forced to do so. Nu for scripting, filling the niche & exploring the functional programming, some statically-typed languages for bigger projects, games, research, etc.
+- I will not start any new personal project in Python (especially one using multi-threading, multiple processes etc.), unless forced to do so. Nu for scripting, filling the niche & exploring the functional programming, some statically-typed languages for bigger projects, games, research, etc.
 - Impostor syndrome is just an another excuse to procrastinate. Do not be scared to learn & do new things but also ask smart questions. Everyone makes mistakes but if you made to any org, you are a good fit and have enough qualifications. 
 
 
