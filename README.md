@@ -8,8 +8,10 @@
 
 ## List of PRs
 ### Picard
+TODO
 
 ### Picard docs
+TODO
 
 ## What I have learnt during GSoC 2022
 - How to work with other people on GitHub
