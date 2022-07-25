@@ -1,5 +1,4 @@
 # My Google Summer of Code 2022 summary
----------------------------------------------------
 
 ## What and for whom
 ### Organization: [MetaBrainz Foundation](https://github.com/metabrainz)
