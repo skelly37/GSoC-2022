@@ -39,3 +39,6 @@ The whole MetaBrainz community is awesome and I am glad I have become a part of 
 - [rdswift](https://github.com/rdswift)
 - [zas](https://github.com/zas)
 
+## Note
+This is not a final version, GSoC is planned to last until September
+
