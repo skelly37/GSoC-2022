@@ -7,11 +7,24 @@
 ### Main focus: Introducing single-instance mode in Picard 3.0
 
 ## List of PRs
-### Picard
-TODO
+### Single instance mode:
+- https://github.com/metabrainz/picard/pull/2116: A big commit where the whole single-instance mode for Picard was designed and introduced (only for file paths though)
+- https://github.com/metabrainz/picard/pull/2135: Fixed problems with exiting the app, caused by https://github.com/metabrainz/picard/pull/2116
+- **OPEN** https://github.com/metabrainz/picard/pull/2130: Supported URLs (with MBIDs) and `mbid://` links (documented there) can be passed with file paths via CLI to an existing (or to a new one) instance.
 
-### Picard docs
-TODO
+### Code refactoring:
+- https://github.com/metabrainz/picard/pull/2080: Code explicitly marked as deprecated got removed, my initial commit to get to know the Picard codebase and workflow
+- https://github.com/metabrainz/picard/pull/2127: Minor patch, unparsed args are now ignored as they were not used anywhere
+- **OPEN** https://github.com/metabrainz/picard/pull/2134: `imp` will be removed in Python 3.12 in favor of `importlib`, removed all `imp` ocurrences
+
+### Other:
+- https://github.com/metabrainz/picard/pull/2122 + https://github.com/metabrainz/picard/pull/2126: Github Actions gives quicker feedback by shortening the feedback from 6 hours to 30 minutes
+- https://github.com/metabrainz/picard-docs/pull/174: Documented my changes
+
+## TODO
+- [ ] Make all the PRs listed here merged
+- [ ] Handle https://tickets.metabrainz.org/browse/PICARD-2526
+- [ ] Document the `mbid://` format and the whole *command-line revolution* of Picard 3.0
 
 ## What I have learnt during GSoC 2022
 - How to work with other people on GitHub
