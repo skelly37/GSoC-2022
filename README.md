@@ -18,7 +18,7 @@
 - **OPEN** https://github.com/metabrainz/picard/pull/2134: `imp` will be removed in Python 3.12 in favor of `importlib`, removed all `imp` ocurrences
 
 ### Other:
-- https://github.com/metabrainz/picard/pull/2122 + https://github.com/metabrainz/picard/pull/2126: Github Actions gives quicker feedback by shortening the feedback from 6 hours to 30 minutes
+- https://github.com/metabrainz/picard/pull/2122 + https://github.com/metabrainz/picard/pull/2126: Github Actions gives quicker feedback by shortening the timeouts from 6 hours to 30 minutes
 - https://github.com/metabrainz/picard-docs/pull/174: Documented my changes
 
 ## TODO
