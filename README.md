@@ -10,7 +10,8 @@
 ### Single instance mode:
 - https://github.com/metabrainz/picard/pull/2116: A big commit where the whole single-instance mode for Picard was designed and introduced (only for file paths though)
 - https://github.com/metabrainz/picard/pull/2135: Fixed problems with exiting the app, caused by https://github.com/metabrainz/picard/pull/2116
-- **OPEN** https://github.com/metabrainz/picard/pull/2130: Supported URLs (with MBIDs) and `mbid://` links (documented there) can be passed with file paths via CLI to an existing (or to a new one) instance.
+- https://github.com/metabrainz/picard/pull/2130: Supported URLs (with MBIDs) and `mbid://` links (documented there) can be passed with file paths via CLI to an existing (or to a new one) instance
+- **OPEN** https://github.com/metabrainz/picard/pull/2137: Supported commands (like `QUIT` or `SHOW`) can be passed via CLI to an existing instance
 
 ### Code refactoring:
 - https://github.com/metabrainz/picard/pull/2080: Code explicitly marked as deprecated got removed, my initial commit to get to know the Picard codebase and workflow
@@ -33,7 +34,7 @@
 - How to use Windows API with Python
 - Differences between Windows and Unix pipes
 - `\0` is the only character that is prohibited on both Windows & Unix in path names
-- `/tmp` is not the recommended way to store non-persistent app data on *nix.
+- `/tmp` is not the recommended way to store non-persistent app data on *nix
 - `os._exit` might be useful when pythonic threads get broken
 
 ## Some personal thoughts
@@ -43,7 +44,7 @@
 - If one can plan their time well, flexible work hours make their work both more effective and more enjoyable
 - Python sometimes change for worse or breaks the code without any reason (e.g. they have switched from using `a` mode into `w` on pipes, ref: [LINK](https://www.mail-archive.com/python-bugs-list@python.org/msg280900.html))
 - I will not start any new personal project in Python (especially one using multi-threading, multiple processes etc.), unless forced to do so. Nu for scripting, filling the niche & exploring the functional programming, some statically-typed languages for bigger projects, games, research, etc.
-- Impostor syndrome is just an another excuse to procrastinate. Do not be scared to learn & do new things but also ask smart questions. Everyone makes mistakes but if you made it to this org, you are a good fit and have enough qualifications. 
+- Impostor syndrome is just an another excuse to procrastinate. Do not be scared to learn & do new things but also ask smart questions. Everyone makes mistakes but if you made it to this org, you are a good fit and have enough qualifications
 
 
 ## Special thanks
