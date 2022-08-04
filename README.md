@@ -36,6 +36,7 @@
 - `\0` is the only character that is prohibited on both Windows & Unix in path names
 - `/tmp` is not the recommended way to store non-persistent app data on *nix
 - `os._exit` might be useful when pythonic threads get broken
+- [Importing a tuple in Python](https://github.com/django/django/blob/main/django/contrib/auth/views.py#L12-L17) is underrated. `git diff` gets cleaner, as one sees only the additions
 
 ## Some personal thoughts
 - Python is a really decent language that helps with starting one's programming journey but the deeper I went, the more annoyances I have encountered (that is why I ended up starting to work as a C++ dev)
