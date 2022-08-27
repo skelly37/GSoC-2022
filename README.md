@@ -8,6 +8,13 @@
 ### Main focus: Introducing single-instance mode in Picard 3.0
 ### My GSoC proposal website: [Link](https://summerofcode.withgoogle.com/proposals/details/1ehxLkzq)
 ---
+## What has been done: TL;DR edition
+- Picard works in single-instance mode by default, allowing to force-spawn a new instance
+- Picard accepts not just file paths but also URLs, MBIDs and commands as command-line arguments
+- The command-line arguments are sent to the existing instance (and processed by it) if possible
+- Picard can execute commands passed by the command-line interface; e.g. save all files, show the Picard window or close the app
+- **IN PROGRESS** Picard can also load the commands from a text file
+
 ## List of PRs
 ### Single instance mode:
 - https://github.com/metabrainz/picard/pull/2116: A big commit where the whole single-instance mode for Picard was designed and introduced (only for file paths though)
