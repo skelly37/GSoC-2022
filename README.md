@@ -1,11 +1,13 @@
 # My Google Summer of Code 2022 summary
 
 ## What and for whom
+---
 ### Organization: [MetaBrainz Foundation](https://github.com/metabrainz)
 ### Project: [MusicBrainz Picard](https://github.com/metabrainz/picard)
 ### Mentors: [Laurent Monin (zas)](https://github.com/zas) & [Philipp Wolfer (phw)](https://github.com/phw)
 ### Main focus: Introducing single-instance mode in Picard 3.0
-
+### My GSoC proposal website: [Link](https://summerofcode.withgoogle.com/proposals/details/1ehxLkzq)
+---
 ## List of PRs
 ### Single instance mode:
 - https://github.com/metabrainz/picard/pull/2116: A big commit where the whole single-instance mode for Picard was designed and introduced (only for file paths though)
