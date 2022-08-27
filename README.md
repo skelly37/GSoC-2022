@@ -24,7 +24,12 @@
 
 ## TODO
 - [ ] Make all the PRs listed here merged
-- [ ] Handle https://tickets.metabrainz.org/browse/PICARD-2526
+- [ ] Add the following commands: 
+    - [ ] `LOG_DUMP`
+    - [ ] `LOG_CLEAR` 
+    - [ ] `LOAD`
+    - [ ] `FROM_FILE`
+- [ ] Introduce a proper command execution order, by creating a blocking duplicates of currently threaded routines like loading files
 - [ ] Document the `mbid://` format and the whole *command-line revolution* of Picard 3.0
 
 ## What I have learnt during GSoC 2022
