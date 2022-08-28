@@ -6,7 +6,6 @@
 ### Project: [MusicBrainz Picard](https://github.com/metabrainz/picard)
 ### Mentors: [Laurent Monin (zas)](https://github.com/zas) & [Philipp Wolfer (phw)](https://github.com/phw)
 ### Main focus: Introducing single-instance mode in Picard 3.0
-### My GSoC proposal website: [Link](https://summerofcode.withgoogle.com/proposals/details/1ehxLkzq)
 ---
 ## What has been done: TL;DR edition
 - Picard works in single-instance mode by default, allowing to force-spawn a new instance
