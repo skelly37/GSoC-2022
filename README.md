@@ -28,7 +28,7 @@
 
 ### Other:
 - https://github.com/metabrainz/picard/pull/2122 + https://github.com/metabrainz/picard/pull/2126: Github Actions gives quicker feedback by shortening the timeouts from 6 hours to 30 minutes
-- https://github.com/metabrainz/picard-docs/pull/174: Documented my changes
+- **OPEN** https://github.com/metabrainz/picard-docs/pull/174: Documented my changes
 
 ## TODO
 - [ ] Make all the PRs listed here merged
