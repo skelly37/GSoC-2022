@@ -35,10 +35,13 @@
 - [ ] Make all the PRs listed here merged
 - [ ] Add the following commands: 
     - [ ] `LOG_DUMP`
-    - [ ] `LOG_CLEAR` 
-    - [ ] `LOAD`
-    - [ ] `FROM_FILE`
+    - [ ] `LOG_CLEAR`
+    - [ ] `LOAD`               (file)
+    - [ ] `FROM_FILE`          (load commands)
+    - [ ] `REMOVE_EMPTY`       (clusters & albums)
+    - [ ] `REMOVE_UNCLUSTERED` (files)
 - [ ] Introduce a proper command execution order, by creating a blocking duplicates of currently threaded routines like loading files
+- [ ] Refactor the tagger class to receive parsed args instead of raw `picard_args` to remove *duplicated* args
 - [ ] Document the `mbid://` format and the whole *command-line revolution* of Picard 3.0
 
 ## What I have learnt during GSoC 2022
