@@ -42,6 +42,7 @@
     - [ ] `REMOVE_UNCLUSTERED` (files)
 - [ ] Introduce a proper command execution order, by creating a blocking duplicates of currently threaded routines like loading files
 - [ ] Refactor the tagger class to receive parsed args instead of raw `picard_args` to remove *duplicated* args
+- [ ] Support multiple arguments in commands like `picard -e LOAD`
 - [ ] Document the `mbid://` format and the whole *command-line revolution* of Picard 3.0
 
 ## What I have learnt during GSoC 2022
