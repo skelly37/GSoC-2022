@@ -20,7 +20,7 @@
 - https://github.com/metabrainz/picard/pull/2116: A big commit where the whole single-instance mode for Picard was designed and introduced (only for file paths though)
 - https://github.com/metabrainz/picard/pull/2135: Fixed problems with exiting the app, caused by https://github.com/metabrainz/picard/pull/2116
 - https://github.com/metabrainz/picard/pull/2130: Supported URLs (with MBIDs) and `mbid://` links (documented there) can be passed with file paths via CLI to an existing (or to a new one) instance
-- **OPEN** https://github.com/metabrainz/picard/pull/2137: Supported commands (like `QUIT` or `SHOW`) can be passed via CLI to an existing instance
+- https://github.com/metabrainz/picard/pull/2137: Supported commands (like `QUIT` or `SHOW`) can be passed via CLI to an existing instance
 
 ### Code refactoring:
 - https://github.com/metabrainz/picard/pull/2080: Code explicitly marked as deprecated got removed, my initial commit to get to know the Picard codebase and workflow
