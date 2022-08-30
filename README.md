@@ -26,6 +26,7 @@
 - https://github.com/metabrainz/picard/pull/2080: Code explicitly marked as deprecated got removed, my initial commit to get to know the Picard codebase and workflow
 - https://github.com/metabrainz/picard/pull/2127: Minor patch, unparsed args are now ignored as they were not used anywhere
 - **OPEN** https://github.com/metabrainz/picard/pull/2134: `imp` will be removed in Python 3.12 in favor of `importlib`, removed all `imp` ocurrences
+- **OPEN** https://github.com/metabrainz/picard/pull/2139: A wraper class for parsing picard args from argparse & more than one arguments can now be provided
 
 ### Other:
 - https://github.com/metabrainz/picard/pull/2122 + https://github.com/metabrainz/picard/pull/2126: Github Actions gives quicker feedback by shortening the timeouts from 6 hours to 30 minutes
