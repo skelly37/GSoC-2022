@@ -26,7 +26,7 @@
 - https://github.com/metabrainz/picard/pull/2080: Code explicitly marked as deprecated got removed, my initial commit to get to know the Picard codebase and workflow
 - https://github.com/metabrainz/picard/pull/2127: Minor patch, unparsed args are now ignored as they were not used anywhere
 - **OPEN** https://github.com/metabrainz/picard/pull/2134: `imp` will be removed in Python 3.12 in favor of `importlib`, removed all `imp` ocurrences
-- **OPEN** https://github.com/metabrainz/picard/pull/2139: A wraper class for parsing picard args from argparse & more than one arguments can now be provided
+- https://github.com/metabrainz/picard/pull/2139: Refactored the whole process of passing arguments to Picard, replaced '%'-formatted strings with f-strings, more than one arguments can be passed correctly to a command.
 
 ### Other:
 - https://github.com/metabrainz/picard/pull/2122 + https://github.com/metabrainz/picard/pull/2126: Github Actions gives quicker feedback by shortening the timeouts from 6 hours to 30 minutes
@@ -42,8 +42,8 @@
     - [ ] `REMOVE_EMPTY`       (clusters & albums)
     - [ ] `REMOVE_UNCLUSTERED` (files)
 - [ ] Introduce a proper command execution order, by creating a blocking duplicates of currently threaded routines like loading files
-- [ ] Refactor the tagger class to receive parsed args instead of raw `picard_args` to remove *duplicated* args
-- [ ] Support multiple arguments in commands like `picard -e LOAD`
+- [x] Refactor the tagger class to receive parsed args instead of raw `picard_args` to remove *duplicated* args
+- [x] Support multiple arguments in commands like `picard -e LOAD`
 - [ ] Document the `mbid://` format and the whole *command-line revolution* of Picard 3.0
 
 ## What I have learnt during GSoC 2022
