@@ -22,29 +22,22 @@
 - https://github.com/metabrainz/picard/pull/2130: Supported URLs (with MBIDs) and `mbid://` links (documented there) can be passed with file paths via CLI to an existing (or to a new one) instance
 - https://github.com/metabrainz/picard/pull/2137: Supported commands (like `QUIT` or `SHOW`) can be passed via CLI to an existing instance
 
+### Picard remote commands enhancements:
+- https://github.com/metabrainz/picard/pull/2141: `REMOVE_EMPTY` & `REMOVE_UNCLUSTERED` commands added
+- https://github.com/metabrainz/picard/pull/2142: `LOAD` command, extending the positional arguments' functionality, added
+- https://github.com/metabrainz/picard/pull/2143: `FROM_FILE` command, executing a command pipeline from a given file, added
+- https://github.com/metabrainz/picard/pull/2144: `CLEAR_LOGS` command added
+- https://github.com/metabrainz/picard/pull/2145: Fixed errors with the `FROM_FILE` command
+- **OPEN** https://github.com/metabrainz/picard/pull/2146: `WRITE_LOGS` & `SET_SAVED_LOGS_VERBOSITY` commands, allowing to save Picard logs in a configurable way, added 
+
 ### Code refactoring:
 - https://github.com/metabrainz/picard/pull/2080: Code explicitly marked as deprecated got removed, my initial commit to get to know the Picard codebase and workflow
 - https://github.com/metabrainz/picard/pull/2127: Minor patch, unparsed args are now ignored as they were not used anywhere
-- **OPEN** https://github.com/metabrainz/picard/pull/2134: `imp` will be removed in Python 3.12 in favor of `importlib`, removed all `imp` ocurrences
 - https://github.com/metabrainz/picard/pull/2139: Refactored the whole process of passing arguments to Picard, replaced '%'-formatted strings with f-strings, more than one arguments can be passed correctly to a command.
 
 ### Other:
 - https://github.com/metabrainz/picard/pull/2122 + https://github.com/metabrainz/picard/pull/2126: Github Actions gives quicker feedback by shortening the timeouts from 6 hours to 30 minutes
 - **OPEN** https://github.com/metabrainz/picard-docs/pull/174: Documented my changes
-
-## TODO
-- [ ] Make all the PRs listed here merged
-- [ ] Add the following commands: 
-    - [ ] `LOG_DUMP`
-    - [ ] `LOG_CLEAR`
-    - [ ] `LOAD`               (file)
-    - [ ] `FROM_FILE`          (load commands)
-    - [ ] `REMOVE_EMPTY`       (clusters & albums)
-    - [ ] `REMOVE_UNCLUSTERED` (files)
-- [ ] Introduce a proper command execution order, by creating a blocking duplicates of currently threaded routines like loading files
-- [x] Refactor the tagger class to receive parsed args instead of raw `picard_args` to remove *duplicated* args
-- [x] Support multiple arguments in commands like `picard -e LOAD`
-- [ ] Document the `mbid://` format and the whole *command-line revolution* of Picard 3.0
 
 ## What I have learnt during GSoC 2022
 - How to work with other people on GitHub
