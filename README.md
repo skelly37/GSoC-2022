@@ -65,7 +65,7 @@ The whole MetaBrainz community is awesome and I am glad I have become a part of 
 
 - [atj](https://github.com/atj)
 - [phw](https://github.com/phw)
-- [rdswift](https://github.com/rdswift)
+- [rdswift](https://github.com/rdswift): You were so helpful I consider you my 3rd mentor here.
 - [zas](https://github.com/zas)
 
 ## Note
