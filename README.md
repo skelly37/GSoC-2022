@@ -13,7 +13,7 @@
 - Picard accepts not just file paths but also URLs, MBIDs and commands as command-line arguments
 - The command-line arguments are sent to the existing instance (and processed by it) if possible
 - Picard can execute commands passed by the command-line interface; e.g. save all files, show the Picard window or close the app
-- **IN PROGRESS** Picard can also load the commands from a text file
+- Picard can also load the commands from a text file
 
 ## List of PRs
 ### Single instance mode:
@@ -28,7 +28,7 @@
 - https://github.com/metabrainz/picard/pull/2143: `FROM_FILE` command, executing a command pipeline from a given file, added
 - https://github.com/metabrainz/picard/pull/2144: `CLEAR_LOGS` command added
 - https://github.com/metabrainz/picard/pull/2145: Fixed errors with the `FROM_FILE` command
-- **OPEN** https://github.com/metabrainz/picard/pull/2146: `WRITE_LOGS` & `SET_SAVED_LOGS_VERBOSITY` commands, allowing to save Picard logs in a configurable way, added 
+- https://github.com/metabrainz/picard/pull/2146: `WRITE_LOGS` command, allowing to save Picard logs into a file, added 
 
 ### Code refactoring:
 - https://github.com/metabrainz/picard/pull/2080: Code explicitly marked as deprecated got removed, my initial commit to get to know the Picard codebase and workflow
