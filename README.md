@@ -42,7 +42,11 @@
 ## What I have learnt during GSoC 2022
 - How to work with other people on GitHub
 - How to improve my git experience (e.g. hooks)
-- How one can handle inter-process communication (not just named pipes, I had to do some research before choosing such approach)
+- How one can handle inter-process communication, basically I have researched:
+  - pipes,
+  - **named pipes**,
+  - sockets,
+  - dbus,
 - How to use Windows API with Python
 - Differences between Windows and Unix pipes
 - `\0` is the only character that is prohibited on both Windows & Unix in path names
