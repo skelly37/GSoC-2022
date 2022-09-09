@@ -33,20 +33,20 @@
 ### Code refactoring:
 - https://github.com/metabrainz/picard/pull/2080: Code explicitly marked as deprecated got removed, my initial commit to get to know the Picard codebase and workflow
 - https://github.com/metabrainz/picard/pull/2127: Minor patch, unparsed args are now ignored as they were not used anywhere
-- https://github.com/metabrainz/picard/pull/2139: Refactored the whole process of passing arguments to Picard, replaced '%'-formatted strings with f-strings, more than one arguments can be passed correctly to a command.
+- https://github.com/metabrainz/picard/pull/2139: Refactored the whole process of passing arguments to Picard, replaced '%'-formatted strings with f-strings, more than one arguments can be passed correctly to a command
 
 ### Other:
 - https://github.com/metabrainz/picard/pull/2122 + https://github.com/metabrainz/picard/pull/2126: Github Actions gives quicker feedback by shortening the timeouts from 6 hours to 30 minutes
-- **OPEN** https://github.com/metabrainz/picard-docs/pull/174: Documented my changes
+- https://github.com/metabrainz/picard-docs/pull/174: Documented my changes
 
 ## What I have learnt during GSoC 2022
 - How to work with other people on GitHub
 - How to improve my git experience (e.g. hooks)
 - How one can handle inter-process communication, basically I have researched:
-  - pipes,
-  - **named pipes**,
-  - sockets,
-  - dbus,
+  - pipes
+  - **named pipes**
+  - sockets
+  - dbus
 - How to use Windows API with Python
 - Differences between Windows and Unix pipes
 - `\0` is the only character that is prohibited on both Windows & Unix in path names
@@ -71,7 +71,3 @@ The whole MetaBrainz community is awesome and I am glad I have become a part of 
 - [phw](https://github.com/phw)
 - [rdswift](https://github.com/rdswift): You were so helpful I consider you my 3rd mentor here.
 - [zas](https://github.com/zas)
-
-## Note
-This is not a final version, GSoC is planned to last until September
-
